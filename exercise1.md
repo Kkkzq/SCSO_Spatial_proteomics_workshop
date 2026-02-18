@@ -17,7 +17,7 @@ Click on any channel name to expand the full list.
 * **Question:** How many channels are present, and what is the relationship between the wavelength (nm) and the assigned color?
 
 :::{dropdown} Click for Answer
-There are **7 channels** (including DAPI). Wavelengths usually correspond to the emission spectra of the fluorophores used (e.g., 450nm for Blue/DAPI, 520nm for Green/FITC).
+There are **7 channels** (including DAPI). Wavelengths usually correspond to the emission spectra of the fluorophores used (e.g., 465nm for Blue/DAPI).
 :::
 
 ---
@@ -26,7 +26,7 @@ There are **7 channels** (including DAPI). Wavelengths usually correspond to the
 
 Spatial proteomics data often has a much wider dynamic range than standard photos.
 
-1. Toggle all channels **OFF** except for one (e.g., CK or CD8).
+1. Toggle all channels **OFF** except for one.
 2. Slide the **Min/Max** bars in the channel controller.
 3. Open the "three-dot" menu next to the channel and select **"Full"**.
 

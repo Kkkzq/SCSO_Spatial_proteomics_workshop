@@ -26,9 +26,12 @@ jobs:
           # pip install -r requirements.txt
 
       - name: Build the book
-        # Using --all forces a clean build of all pages
         run: |
-          jupyter-book build . --all
+          jupyter-book build .
+
+      - name: List built files (Debug)
+        run: |
+          ls -R _build/html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

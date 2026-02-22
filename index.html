@@ -335,10 +335,10 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="spatial-proteomics-from-pixels-to-phenotypes">
 <h1>Spatial Proteomics: From Pixels to Phenotypes<a class="headerlink" href="#spatial-proteomics-from-pixels-to-phenotypes" title="Permalink to this heading">#</a></h1>
-<p>Welcome to the <strong>Spatial Proteomics Workshop (2026)</strong>. In this session, we move beyond simple microscopy to explore high-dimensional tissue imaging. You will learn to navigate multiplexed data, manage technical image parameters, and translate raw fluorescence into biological insights.</p>
+<p>Welcome to the <strong>Spatial Proteomics Workshop (2026)</strong>. In this session, we move beyond simple microscopy to explore high-dimensional tissue imaging. You will learn to navigate multiplexed data, manage technical image parameters, and translate raw fluorescence into a spatial atlas of the tumor microenvironment.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p><strong>Software Check:</strong> No installation is required. We will use <a class="reference external" href="https://avivator.gehlenborglab.org/">Avivator</a> and the <a class="reference external" href="https://www.cycif.org/">CycIF Viewer</a>, which run directly in your web browser.</p>
+<p><strong>Software Check:</strong> We will use <a class="reference external" href="https://avivator.gehlenborglab.org/">Avivator</a> and the <a class="reference external" href="https://www.cycif.org/">CycIF Viewer</a>, which run directly in your web browser for initial visual exploration. For the computational analysis, we will use Scimap and UTAG within a Python/Jupyter environment.</p>
 </div>
 <hr class="docutils" />
 <section id="learning-objectives">
@@ -349,6 +349,9 @@ document.write(`
 <li><p><strong>Master Visualization:</strong> Adjust contrast, intensity ranges, and colormaps to highlight specific ROI (Regions of Interest).</p></li>
 <li><p><strong>Assess Data Quality:</strong> Identify bit depth, pixel-to-micron scales, and the impact of signal aggregation.</p></li>
 <li><p><strong>Identify Phenotypes:</strong> Relate staining patterns to cell morphology and distinguish between lineage and functional markers.</p></li>
+<li><p><strong>Measure Social Distance of Cells</strong>: Quantify the spatial proximity between immune cells and tumor nests to assess infiltration.</p></li>
+<li><p><strong>Map Regional Communities (RCNs)</strong>: Use k-means clustering to identify the Tumor-Stromal Interface (TSI).</p></li>
+<li><p><strong>Automate Domain Discovery</strong>: Apply UTAG to identify unsupervised architectural neighborhoods across different samples.</p></li>
 </ul>
 </section>
 <hr class="docutils" />
@@ -376,7 +379,19 @@ document.write(`
 </tr>
 <tr class="row-odd"><td class="text-left"><p><strong>Discussion &amp; Q&amp;A</strong></p></td>
 <td class="text-left"><p>5 Min</p></td>
-<td class="text-left"><p>Data sharing &amp; Future formats</p></td>
+<td class="text-left"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Exercise 3: SCIMAP analysis</strong></p></td>
+<td class="text-left"><p>60 Min</p></td>
+<td class="text-left"><p>Spatial analysis of tumor microenvironment</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Exercise 4: UTAG</strong></p></td>
+<td class="text-left"><p>15 Min</p></td>
+<td class="text-left"><p>Tissue domains</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Discussion &amp; Q&amp;A</strong></p></td>
+<td class="text-left"><p>5 Min</p></td>
+<td class="text-left"><p></p></td>
 </tr>
 </tbody>
 </table>
@@ -462,7 +477,7 @@ document.write(`
   <div class="footer-item">
     
 <p class="component-author">
-By Ada & Aleksandra
+By Ada, Ziqi and Aleksandra
 </p>
 
   </div>

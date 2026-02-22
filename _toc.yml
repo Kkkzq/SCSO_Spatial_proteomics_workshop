@@ -1,6 +1,6 @@
 format: jb-book
 root: index
 chapters:
-  - file: exercise1
-  - file: exercise2
-  - file: exercise3
+  - file: exercise1.md
+  - file: exercise2.md
+  - file: exercise3.ipynb

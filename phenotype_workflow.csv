@@ -1,0 +1,5 @@
+Global,Phenotype,CK7,ECadherin,aSMA,Vimentin,CD11c,CD3d
+all,Cancer,pos,pos,,,,
+all,Stromal,,,pos,pos,,
+all,Myeloid,,,,,pos,
+all,Lymphoid,,,,,,pos

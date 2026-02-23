@@ -1,4 +1,4 @@
 title: Spatial Proteomics Workshop 2026
 author: Ada, Ziqi and Aleksandra
 execute:
-  execute_notebooks: force
+  execute_notebooks: off
